@@ -1,0 +1,6 @@
+call AppConfig.memberService
+ call AppConfig.memberRepository
+call AppConfig.orderService
+VmemberService -> memberRepository = hello.core.member.MemoryMemberRepository@63648ee9
+SorderService -> memberRepository hello.core.member.MemoryMemberRepository@63648ee9
+EmemberRepository = hello.core.member.MemoryMemberRepository@63648ee9
